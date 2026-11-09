@@ -17,16 +17,9 @@ import {
 } from "lucide-react";
 
 import "./Dashboard.css";
-import {
-    getMeetings,
-    saveMeeting,
-    markJoined,
-    deleteMeeting,
-    generateMeetingId,
-    parseMeetingId,
-    meetingLink,
-} from "../utils/meetings";
-import { copyText } from "../utils/clipboard";
+import { getMeetings, saveMeeting, markJoined, deleteMeeting, generateMeetingId, parseMeetingId, meetingLink } from "../utils/Meetings";
+
+import { copyText } from "../utils/Clipboard";
 import { getProfile } from "../utils/profile";
 
 const GRACE_MS = 60 * 60 * 1000;
